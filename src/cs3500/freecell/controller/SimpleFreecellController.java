@@ -57,6 +57,8 @@ public class SimpleFreecellController implements FreecellController<Card> {
       return;
     }
 
+
+
     //try to render the current board
     this.displayBoard();
     Scanner scan = new Scanner(rd);
@@ -281,7 +283,6 @@ public class SimpleFreecellController implements FreecellController<Card> {
       throw new IllegalStateException("Could not render board or render message");
     }
   }
-
 }
 
 
